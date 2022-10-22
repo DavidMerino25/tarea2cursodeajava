@@ -1,0 +1,60 @@
+:root{
+    --fondo : #007edb;
+    --fondo2 : #00a8ff;
+    --fondo3 : #00d4ff;
+    --fondo4 : #ffffff;
+    
+
+}
+body{
+    background: var(--fondo);
+    padding: 2rem 8rem;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    
+}
+.post{
+    background: var(--fondo4);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    color: var(--fondo);
+}
+.image{
+    margin: auto;
+    width: 50%;
+    
+}
+.image img{
+    width: 100%;
+    margin: auto;
+
+}
+p{
+    font-size: 1.2rem;
+    line-height: 1.1;
+    color: #0669b1;
+
+}
+hr{
+    border: 0;
+    height: 2px;
+    background: var(--fondo2);
+    margin: 1rem 0;
+}
+footer{
+    padding: 1rem;
+
+
+}
+footer p{
+    text-align: center; 
+    font-size: 1.5rem;
+    color: var(--fondo4);
+    width: 100%;
+
+}
