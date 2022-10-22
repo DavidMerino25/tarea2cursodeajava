@@ -16,6 +16,7 @@ body{
     color: #fff;
     
 }
+
 .post{
     background: var(--fondo4);
     padding: 2rem;
@@ -32,6 +33,14 @@ body{
     width: 50%;
     
 }
+@media (max-width: 600px) {
+    body{
+        padding: 2rem 1rem;
+    }
+    .image{
+        width: 90%;
+    }
+  }
 .image img{
     width: 100%;
     margin: auto;
