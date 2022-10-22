@@ -24,6 +24,9 @@ body{
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     color: var(--fondo);
 }
+.post h1{
+    color: black;
+}
 .image{
     margin: auto;
     width: 50%;
@@ -37,7 +40,7 @@ body{
 p{
     font-size: 1.2rem;
     line-height: 1.1;
-    color: #0669b1;
+    color: #685057;
 
 }
 hr{
